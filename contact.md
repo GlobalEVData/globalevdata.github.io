@@ -4,6 +4,37 @@
 - global.ev.map@gmail.com
 ## 🏫Address: 
 - Room ZN618, 6/F, North Wing, Block Z, Phase 8, 181 Chatham Road South, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, China
+
+## Register as a Member for the Global EV Data Initiative
+> Leave your email address and we will send you the latest information about the Global EV Data Initiative regularly.
+
+- [Register as a Member](https://docs.google.com/forms/d/e/1FAIpQLSee3mhBgstlslpNp1UDsA4isU6-iz9m7eFLyJQVAOQuAHwDQg/viewform?usp=dialog)
+
+<!-- <subscribe />
+
+<script setup>
+    import subscribe from '@/components/subscribe.vue'
+</script> -->
+
+
+<!-- ## 网站用户访问统计 -->
+
+<!-- 
+## 📊 User Access Statistics Map
+> Letest 28 days user access statistics ma
+
+<iframe 
+    width="600" 
+    height="450" 
+    src="https://lookerstudio.google.com/embed/reporting/346c47ef-9107-40d6-885e-c3e4cfdfaec6/page/QvocE?hl=en" 
+    frameborder="0" 
+    style="border:0" 
+    allowfullscreen 
+    sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe> -->
+
+
+
 <!-- <LeafletMap :mainScript :center="mapCenter" :zoom="mapZoom" ref="map" />
 
 <script setup>

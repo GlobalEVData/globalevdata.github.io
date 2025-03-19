@@ -1,3 +1,8 @@
+import { hexToRGBArray } from './color.js';
+
+const NA = "gray"; // 缺失值的颜色
+const NAarr = [128, 128, 128]; // 缺失值的颜色
+
 export class Stastics {
     constructor() {
         this._max = 0;
@@ -68,6 +73,21 @@ export class Stastics {
         return colors[index];
     }
 
+    mapValue2Color2(value, isReverse = false, colors = defaultColors, stretch = 'linear') {
+        // 默认执行一步 hexToRGBArray
+
+        // 若传入的值为空，则返回缺失值颜色
+        if (!value) {
+            return NAarr;
+        }
+
+        colors = colors.map(d => hexToRGBArray(d));
+
+        let index = Math.floor(this.mapValue(value, isReverse, stretch) * (colors.length - 1));
+        return colors[index];
+    }
+
+
     getGrades(num, fixed = 2) {
         let grades = [];
     
@@ -108,6 +128,7 @@ export class Stastics {
     
     
 }
+
 
 
 // const defaultColors  = [
