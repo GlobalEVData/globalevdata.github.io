@@ -26,7 +26,22 @@ const ExternalCollaborators = [
     avatar: '7.png',
     name: 'Zhenhan PENG',
     title: 'PhD Student at KU Leuven, Belgium',
-  }
+  },
+  {
+    avatar: 'Yuan LI.png',
+    name: 'Yuan LI',
+    title: 'PhD student at Vrije Universiteit Brussel, Belgium',
+  },
+  {
+    avatar: 'Xingjun HUANG.png',
+    name: 'Xingjun HUANG',
+    title: 'Lecturer at School of Modern Posts, Chongqing University of Posts and Telecommunications, China',
+  },
+  {
+    avatar: '8.png',
+    name: 'Fan ZHANG',
+    title: 'Postdoc Fellow at HK PolyU',
+  },
 ]
 
 
@@ -43,14 +58,24 @@ const Reachers = [
     title: 'Leading Researcher & Postdoc Fellow',
   },
   {
-    avatar: '8.png',
-    name: 'Fan ZHANG',
-    title: 'Leading Researcher & Postdoc Fellow',
-  },
-  {
     avatar: '4.png',
     name: 'Justin Hayse Chiwing G. TANG',
     title: 'Leading Researcher & PhD Student',
+  },
+  {
+    avatar: 'Shiqi WANG.png',
+    name: 'Shiqi WANG',
+    title: 'Leading Researcher & PhD student',
+  },
+  {
+    avatar: 'Zili TIAN.png',
+    name: 'Zili TIAN',
+    title: 'Leading Researcher & PhD student',
+  },
+  {
+    avatar: '10.png',
+    name: 'Xiaoqi SHI',
+    title: 'Data Analyst & PhD Student',
   },
   {
     avatar: '5.png',
@@ -58,17 +83,11 @@ const Reachers = [
     title: 'Data Analyst & PhD Student',
   },
   {
-    avatar: '10.png',
-    name: 'Xiaoqi SHI',
-    title: 'Data Analyst & Master Student',
-  },
-  {
     avatar: '9.png',
     name: 'Dingkang TENG',
     title: 'Data Analyst & Master Student',
   },
   {
-    // Ding Chen，Data Analyst & Master Student
     avatar: '11.png',
     name: 'Ding CHEN',
     title: 'Data Analyst & Master Student',
@@ -77,26 +96,8 @@ const Reachers = [
     avatar: '12.png',
     name: 'Zhiqing PAN',
     title: 'Website Developer & Research Assistant',
-    // links : [
-    //   {
-    //     icon: 'github',
-    //     link: 'https://www.github.com/pzq123456',
-    //   }
-    // ]
   },
 ]
-
-
-// Justin
-// Leading Researcher & PhD Student
-
-// Enyuan
-// Data Analyst & PhD Student
-
-// Xiaoqi SHI
-// Data Analyst & Master Student
-
-
 
 
 </script>
@@ -132,7 +133,7 @@ const Reachers = [
 
   <VPTeamPageSection>
       <template #title>
-        International Collaborators
+        Collaborators
       </template>
       <template #members>
         <VPTeamMembers size="medium" :members= "ExternalCollaborators" />

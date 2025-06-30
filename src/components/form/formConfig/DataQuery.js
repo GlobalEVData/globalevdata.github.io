@@ -1,16 +1,36 @@
 // config.js
 export default {
   formProps: {
-    labelWidth: "120px",
+    labelWidth: "140px",
     class: "query-form"
   },
   title: "Data Selection",
   databases: {
     charging_stations: createDatabaseConfig("Charging Stations"),
-    user_reviews: createDatabaseConfig("User Comments")
+    user_reviews: createDatabaseConfig("User Comments"),
+    social_mediaTextData: createSimpleDatabaseConfig("Social Media Text Data"),
+    bibliometricTextData: createSimpleDatabaseConfig("Bibliometric Text Data"),
   },
+
   actions: true
 };
+
+
+function createSimpleDatabaseConfig(label) {
+  return {
+    label,
+    fields: [
+      {
+        type: "checkbox-group",
+        model: "years",
+        label: "Years",
+        optionsRef: "availableYearsForAAM",
+        rules: createRule("Please select at least one year"),
+      }
+    ]
+  };
+}
+
 
 // 公共配置生成函数，减少重复代码
 function createDatabaseConfig(label) {
@@ -18,7 +38,7 @@ function createDatabaseConfig(label) {
     {
       type: "cascader",
       model: "regions",
-      label: "Regions",
+      label: "Country/Region",
       optionsRef: "regionOptions",
       props: {
         multiple: true,
