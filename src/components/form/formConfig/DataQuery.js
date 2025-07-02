@@ -7,9 +7,8 @@ export default {
   title: "Data Selection",
   databases: {
     charging_stations: createDatabaseConfig("Charging Stations"),
-    user_reviews: createDatabaseConfig("User Comments"),
-    social_mediaTextData: createSimpleDatabaseConfig("Social Media Text Data"),
-    bibliometricTextData: createSimpleDatabaseConfig("Bibliometric Text Data"),
+    // user_reviews: createDatabaseConfig("User Comments"),
+    advanced_air_mobility: createSimpleDatabaseConfig("Advanced Air Mobility Text Data"),
   },
 
   actions: true
@@ -22,8 +21,8 @@ function createSimpleDatabaseConfig(label) {
     fields: [
       {
         type: "checkbox-group",
-        model: "years",
-        label: "Years",
+        model: "Types",
+        label: "Types",
         optionsRef: "availableYearsForAAM",
         rules: createRule("Please select at least one year"),
       }
