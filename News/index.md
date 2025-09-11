@@ -1,5 +1,9 @@
 # News
 
+## [Conference] [Conference Poster Presentation at GIScience 2025](./2025-9-11.md)
+
+We are pleased to announce that our research group members, Ruichen MA and Zili TIAN...
+
 ## [Data] [Global EV Public Charging Station Review Data (2015-2024)](./2025-8-17) 
 
 We are pleased to present the Global EV Charging Station Review Dataset (2015–2024). Covering the period from 1 January 2015 to 31 December 2024...
