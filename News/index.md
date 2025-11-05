@@ -1,6 +1,6 @@
 # News
 
-## [Talk] [Research Group Presents at Geospatial Lab Feature Talk](./2025-11-3)
+## [Talk] [Research Group Presents at Geospatial Lab Feature Talk](./2025-11-5)
 Dr. Zhuge was invited by the Hong Kong Government Development Bureau’s Geospatial Lab for a feature talk on October 11, 2025...
 
 ## [Conference] [Conference Poster Presentation at GIScience 2025](./2025-9-11.md)
