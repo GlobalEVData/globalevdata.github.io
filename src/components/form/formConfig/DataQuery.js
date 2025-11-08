@@ -1,14 +1,37 @@
 // config.js
 import { createChargingStationConfig } from './ChargingStationConfig.js';
 
-// 规则生成函数
-function createRule(message) {
+export default {
+  formProps: {
+    labelWidth: "140px",
+    class: "query-form"
+  },
+  title: "Data Selection",
+  databases: {
+    charging_stations: createChargingStationConfig("Charging Stations"),
+    advanced_air_mobility: createSimpleDatabaseConfig("Advanced Air Mobility Text Data"),
+    user_reviews: createDatabaseConfig("EV Charging Review Data*", "availableYearsForEVCReviewData", "regionOptions2"),
+  },
+
+  actions: true
+};
+
+
+function createSimpleDatabaseConfig(label) {
   return {
-    required: true,
-    message,
-    trigger: "change"
+    label,
+    fields: [
+      {
+        type: "checkbox-group",
+        model: "Types",
+        label: "Types",
+        optionsRef: "availableYearsForAAM",
+        rules: createRule("Please select at least one year"),
+      }
+    ]
   };
 }
+
 
 // 公共配置生成函数，减少重复代码
 function createDatabaseConfig(label, yearOptions = "availableYears", regionOptions = "regionOptions") {
@@ -43,32 +66,11 @@ function createDatabaseConfig(label, yearOptions = "availableYears", regionOptio
   };
 }
 
-function createSimpleDatabaseConfig(label) {
+// 规则生成函数
+function createRule(message) {
   return {
-    label,
-    fields: [
-      {
-        type: "checkbox-group",
-        model: "Types",
-        label: "Types",
-        optionsRef: "availableYearsForAAM",
-        rules: createRule("Please select at least one year"),
-      }
-    ]
+    required: true,
+    message,
+    trigger: "change"
   };
 }
-
-export default {
-  formProps: {
-    labelWidth: "140px",
-    class: "query-form"
-  },
-  title: "Data Selection",
-  databases: {
-    charging_stations: createChargingStationConfig("Charging Stations"),
-    advanced_air_mobility: createSimpleDatabaseConfig("Advanced Air Mobility Text Data"),
-    user_reviews: createDatabaseConfig("EV Charging Review Data*", "availableYearsForEVCReviewData", "regionOptions2"),
-  },
-
-  actions: true
-};
