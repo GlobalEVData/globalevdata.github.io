@@ -1,6 +1,4 @@
 // config.js
-import { createChargingStationConfig } from './ChargingStationConfig.js';
-
 export default {
   formProps: {
     labelWidth: "140px",
@@ -8,7 +6,7 @@ export default {
   },
   title: "Data Selection",
   databases: {
-    charging_stations: createChargingStationConfig("Charging Stations"),
+    charging_stations: createDatabaseConfig("Charging Stations"),
     advanced_air_mobility: createSimpleDatabaseConfig("Advanced Air Mobility Text Data"),
     user_reviews: createDatabaseConfig("EV Charging Review Data*", "availableYearsForEVCReviewData", "regionOptions2"),
   },
