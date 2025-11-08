@@ -33,7 +33,6 @@ export function extractFormRef(formConfig) {
     Object.keys(formConfig.databases).forEach(dbKey => {
       formData[dbKey] = {
         selected: false,
-<<<<<<< HEAD
         years: []
       }
       
@@ -44,13 +43,6 @@ export function extractFormRef(formConfig) {
       } else {
         formData[dbKey].regions = [];
       }
-      
-=======
-        regions: [],
-        years: []
-      }
-      
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
       // 遍历字段以确保所有模型都被包含
       formConfig.databases[dbKey].fields.forEach(field => {
         if (!formData[dbKey][field.model]) {

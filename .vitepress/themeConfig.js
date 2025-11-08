@@ -43,11 +43,8 @@ sidebar: {
               items: [
                 { text: '2024 EVCS Data', link: '/datasets/ev-charger/2024' },
                 { text: '2022 EVCS Data', link: '/datasets/ev-charger/2022' },
-<<<<<<< HEAD
                 { text: 'U.S. EVCS Data(2014-2024)', link: '/datasets/ev-charger/US-public-electric-vehicle-charging-station(EVCS)-data-(2014-2024)' },
 
-=======
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
               ],
             },
             {
