@@ -4,9 +4,6 @@
 
 <<<<<<< HEAD
 *(Version 2025.3 revised on 8 Nov 2025)*
-=======
-*(Version 2025.2 revised on 12 May 2025)*
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
 
 ## Part 1 Basic Information
 

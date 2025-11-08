@@ -18,18 +18,12 @@
 
       <div v-if="formData[dbKey].selected" class="database-details">
         <template v-for="field in databaseConfig.fields" :key="field.model">
-<<<<<<< HEAD
           <!-- 当字段是otherRegions或years且dbKey是charging_stations时，需要判断stationType是否包含other -->
           <el-form-item 
             v-if="!(dbKey === 'charging_stations' && (field.model === 'otherRegions' || field.model === 'years') && (!formData[dbKey].stationType || !formData[dbKey].stationType.includes('other')))"
             :label="field.label" 
             :prop="`${dbKey}.${field.model}`"
             :class="{ 'nested-field': dbKey === 'charging_stations' && (field.model === 'otherRegions' || field.model === 'years') }"
-=======
-          <el-form-item 
-            :label="field.label" 
-            :prop="`${dbKey}.${field.model}`"
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
           >
             <!-- 级联选择器 -->
             <el-cascader
@@ -49,17 +43,10 @@
             >
               <el-checkbox 
                 v-for="option in getOptions(field.optionsRef)" 
-<<<<<<< HEAD
                 :key="typeof option === 'object' ? option.value : option" 
                 :label="typeof option === 'object' ? option.value : option"
               >
                 {{ typeof option === 'object' ? option.label : option }}
-=======
-                :key="option" 
-                :label="option"
-              >
-                {{ option }}
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
               </el-checkbox>
             </el-checkbox-group>
           </el-form-item>
@@ -77,10 +64,7 @@
 <script setup>
 import { reactive, ref, computed, watch } from 'vue'
 import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2 } from './formConfig/data.js'
-<<<<<<< HEAD
 import { chargingStationOptions, regionOptionsWithoutUSA } from './formConfig/ChargingStationConfig.js'
-=======
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
 
 const props = defineProps({
   formConfig: {
@@ -99,13 +83,10 @@ const props = defineProps({
       availableYears,
       availableYearsForAAM,
       availableYearsForEVCReviewData,
-<<<<<<< HEAD
+
       regionOptions2,
       chargingStationOptions,
       regionOptionsWithoutUSA
-=======
-      regionOptions2
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
     })
   }
 })
@@ -218,7 +199,6 @@ defineExpose({
 .database-details {
   border-left: 2px solid var(--vp-c-brand-3);
 }
-<<<<<<< HEAD
 
 /* 为嵌套字段添加缩进效果 */
 .nested-field {
@@ -237,6 +217,5 @@ defineExpose({
 .nested-field .el-form-item__content {
   padding-left: 140px;
 }
-=======
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
+
 </style>
