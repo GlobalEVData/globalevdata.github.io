@@ -1,6 +1,9 @@
 // config.js
+<<<<<<< HEAD
 import { createChargingStationConfig } from './ChargingStationConfig.js';
 
+=======
+>>>>>>> 829537c5d11f30c01c5227606badba514063a902
 export default {
   formProps: {
     labelWidth: "140px",
@@ -8,7 +11,11 @@ export default {
   },
   title: "Data Selection",
   databases: {
+<<<<<<< HEAD
     charging_stations: createChargingStationConfig("Charging Stations"),
+=======
+    charging_stations: createDatabaseConfig("Charging Stations"),
+>>>>>>> 829537c5d11f30c01c5227606badba514063a902
     advanced_air_mobility: createSimpleDatabaseConfig("Advanced Air Mobility Text Data"),
     user_reviews: createDatabaseConfig("EV Charging Review Data*", "availableYearsForEVCReviewData", "regionOptions2"),
   },
