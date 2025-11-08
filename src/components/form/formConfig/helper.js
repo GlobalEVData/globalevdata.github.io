@@ -33,8 +33,15 @@ export function extractFormRef(formConfig) {
     Object.keys(formConfig.databases).forEach(dbKey => {
       formData[dbKey] = {
         selected: false,
-        regions: [],
         years: []
+      }
+      
+      // 为充电站点数据库特殊处理
+      if (dbKey === 'charging_stations') {
+        formData[dbKey].stationType = [];
+        formData[dbKey].otherRegions = [];
+      } else {
+        formData[dbKey].regions = [];
       }
       
       // 遍历字段以确保所有模型都被包含

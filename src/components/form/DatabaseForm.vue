@@ -18,7 +18,11 @@
 
       <div v-if="formData[dbKey].selected" class="database-details">
         <template v-for="field in databaseConfig.fields" :key="field.model">
+          <!-- 条件显示逻辑：只有当选择了'other'选项时才显示otherRegions和years字段 -->
           <el-form-item 
+            v-if="!(dbKey === 'charging_stations' && 
+                   (field.model === 'otherRegions' || field.model === 'years') && 
+                   (!formData[dbKey].stationType || !formData[dbKey].stationType.includes('other')))" 
             :label="field.label" 
             :prop="`${dbKey}.${field.model}`"
           >
@@ -40,10 +44,10 @@
             >
               <el-checkbox 
                 v-for="option in getOptions(field.optionsRef)" 
-                :key="option" 
-                :label="option"
+                :key="typeof option === 'object' ? option.value : option" 
+                :label="typeof option === 'object' ? option.value : option"
               >
-                {{ option }}
+                {{ typeof option === 'object' ? option.label : option }}
               </el-checkbox>
             </el-checkbox-group>
           </el-form-item>
@@ -61,6 +65,7 @@
 <script setup>
 import { reactive, ref, computed, watch } from 'vue'
 import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2 } from './formConfig/data.js'
+import { chargingStationOptions, regionOptionsWithoutUSA } from './formConfig/ChargingStationConfig.js'
 
 const props = defineProps({
   formConfig: {
@@ -79,7 +84,9 @@ const props = defineProps({
       availableYears,
       availableYearsForAAM,
       availableYearsForEVCReviewData,
-      regionOptions2
+      regionOptions2,
+      chargingStationOptions,
+      regionOptionsWithoutUSA
     })
   }
 })

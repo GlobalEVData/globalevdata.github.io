@@ -89,7 +89,7 @@ export function createChargingStationConfig(label) {
       {
         type: "cascader",
         model: "otherRegions",
-        label: "Other Regions Details",
+        label: "Region",
         optionsRef: "regionOptionsWithoutUSA",
         props: {
           multiple: true,
