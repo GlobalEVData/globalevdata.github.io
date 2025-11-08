@@ -18,9 +18,12 @@
 
       <div v-if="formData[dbKey].selected" class="database-details">
         <template v-for="field in databaseConfig.fields" :key="field.model">
+          <!-- 当字段是otherRegions或years且dbKey是charging_stations时，需要判断stationType是否包含other -->
           <el-form-item 
+            v-if="!(dbKey === 'charging_stations' && (field.model === 'otherRegions' || field.model === 'years') && (!formData[dbKey].stationType || !formData[dbKey].stationType.includes('other')))"
             :label="field.label" 
             :prop="`${dbKey}.${field.model}`"
+            :class="{ 'nested-field': dbKey === 'charging_stations' && (field.model === 'otherRegions' || field.model === 'years') }"
           >
             <!-- 级联选择器 -->
             <el-cascader
@@ -40,10 +43,10 @@
             >
               <el-checkbox 
                 v-for="option in getOptions(field.optionsRef)" 
-                :key="option" 
-                :label="option"
+                :key="typeof option === 'object' ? option.value : option" 
+                :label="typeof option === 'object' ? option.value : option"
               >
-                {{ option }}
+                {{ typeof option === 'object' ? option.label : option }}
               </el-checkbox>
             </el-checkbox-group>
           </el-form-item>
@@ -61,6 +64,7 @@
 <script setup>
 import { reactive, ref, computed, watch } from 'vue'
 import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2 } from './formConfig/data.js'
+import { chargingStationOptions, regionOptionsWithoutUSA } from './formConfig/ChargingStationConfig.js'
 
 const props = defineProps({
   formConfig: {
@@ -79,7 +83,9 @@ const props = defineProps({
       availableYears,
       availableYearsForAAM,
       availableYearsForEVCReviewData,
-      regionOptions2
+      regionOptions2,
+      chargingStationOptions,
+      regionOptionsWithoutUSA
     })
   }
 })
@@ -191,5 +197,23 @@ defineExpose({
 
 .database-details {
   border-left: 2px solid var(--vp-c-brand-3);
+}
+
+/* 为嵌套字段添加缩进效果 */
+.nested-field {
+  padding-left: 40px;
+  margin-top: -10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding-top: 10px;
+}
+
+/* 确保标签和输入框都有缩进 */
+.nested-field .el-form-item__label {
+  padding-left: 0;
+}
+
+.nested-field .el-form-item__content {
+  padding-left: 140px;
 }
 </style>
