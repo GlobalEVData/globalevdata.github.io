@@ -1,0 +1,11 @@
+,country,state,city,GID_1,GID_2,zip,id,NAME_1,NAME_2,ev_dc_fast_num,ev_level1_evse_num,ev_level2_evse_num,geometry
+0,US,CA,Los Angeles,USA.5_1,USA.5.19_1,90015,1523,California,Los Angeles,0.0,1.0,2.0,POINT (-118.2695539 34.0401988)
+1,US,CA,Diamond Bar,USA.5_1,USA.5.19_1,91765,1524,California,Los Angeles,0.0,14.0,0.0,POINT (-117.8290451 34.002107)
+2,US,CA,Los Angeles,USA.5_1,USA.5.19_1,90012,1525,California,Los Angeles,0.0,0.0,51.0,POINT (-118.248854 34.057593)
+3,US,CA,Los Angeles,USA.5_1,USA.5.19_1,90028,1526,California,Los Angeles,0.0,0.0,4.0,POINT (-118.3347468 34.1022448)
+4,US,CA,Los Angeles,USA.5_1,USA.5.19_1,90017,1527,California,Los Angeles,0.0,0.0,4.0,POINT (-118.261897 34.047834)
+5,US,CA,El Monte,USA.5_1,USA.5.19_1,91731,1583,California,Los Angeles,0.0,0.0,4.0,POINT (-118.064 34.06872)
+6,US,CA,Santa Monica,USA.5_1,USA.5.19_1,90401,6377,California,Los Angeles,0.0,0.0,4.0,POINT (-118.4936476 34.0150669)
+7,US,CA,Sepulveda,USA.5_1,USA.5.19_1,91343,6405,California,Los Angeles,0.0,0.0,2.0,POINT (-118.468523 34.221913)
+8,US,CA,Pasadena,USA.5_1,USA.5.19_1,91103,6505,California,Los Angeles,0.0,0.0,8.0,POINT (-118.147294 34.147196)
+9,US,CA,Pasadena,USA.5_1,USA.5.19_1,91105,6506,California,Los Angeles,0.0,0.0,3.0,POINT (-118.1522347 34.1449545)
