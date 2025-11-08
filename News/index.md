@@ -1,14 +1,11 @@
 # News
 
-<<<<<<< HEAD
 ## [Data] [U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8) 
 
 We are glad to share the U.S. Public Electric Vehicle Charging Station (EVCS) Data from 2014 to 2024, sourced from U.S. Department of Energy’s Alternative Fuel Data Center (AFDC)...
 
 ## [Talk] [Research Group Presents at Geospatial Lab Feature Talk](./2025-11-5)
-=======
-## [Talk] [Research Group Presents at Geospatial Lab Feature Talk](./2025-11-3)
->>>>>>> 829537c5d11f30c01c5227606badba514063a902
+
 Dr. Zhuge was invited by the Hong Kong Government Development Bureau’s Geospatial Lab for a feature talk on October 11, 2025...
 
 ## [Conference] [Conference Poster Presentation at GIScience 2025](./2025-9-11.md)
