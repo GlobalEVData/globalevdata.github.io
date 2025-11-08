@@ -30,8 +30,5 @@ We are glad to share the Global Public Electric Vehicle Charging Station Data in
 ## [Data] [Global Public Electric Vehicle Charging Station Data in 2022](./2024-11-22) 
 
 We are glad to share the Global Public Electric Vehicle Charging Station Data in 2022, which contain public EV charging station locations in the US, China and Europe...
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 16f227c862402691979df5003833ff1439e00667

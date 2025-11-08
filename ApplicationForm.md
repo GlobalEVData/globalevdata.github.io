@@ -2,11 +2,7 @@
 
 > Note: This form is used to apply for datasets available through the Global EV Data Initiative (please see its website: https://globalevdata.github.io/ ). Please fill in this application form. We will process your application within two weeks. If you have any questions, you may contact us by email (global.ev.map@gmail.com). 
 
-<<<<<<< HEAD
-*(Version 2025.2 revised on 12 May 2025)*
-=======
 *(Version 2025.3 revised on 8 Nov 2025)*
->>>>>>> 16f227c862402691979df5003833ff1439e00667
 
 ## Part 1 Basic Information
 
