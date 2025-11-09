@@ -1,8 +1,8 @@
 # News
 
-## [Data] [U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8) 
+## [Data] [US Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8) 
 
-We are glad to share the U.S. Public Electric Vehicle Charging Station (EVCS) Data from 2014 to 2024, sourced from U.S. Department of Energy’s Alternative Fuel Data Center (AFDC)...
+We are glad to share the US Public Electric Vehicle Charging Station (EVCS) Data from 2014 to 2024, sourced from US Department of Energy’s Alternative Fuel Data Center (AFDC)...
 
 ## [Talk] [Research Group Presents at Geospatial Lab Feature Talk](./2025-11-5)
 

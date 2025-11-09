@@ -2,7 +2,7 @@
 export const chargingStationOptions = [
   { 
     value: 'usa', 
-    label: 'USA EVCS Data(2014-2024)'
+    label: 'US EVCS Data(2014-2024)'
   },
   { 
     value: 'other', 
