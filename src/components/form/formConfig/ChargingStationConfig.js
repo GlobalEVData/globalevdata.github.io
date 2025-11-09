@@ -1,8 +1,8 @@
 // 充电桩数据专用配置
 export const chargingStationOptions = [
   { 
-    value: 'usa', 
-    label: 'US EVCS Data(2014-2024)'
+    value: 'U.S.', 
+    label: 'U.S. EVCS Data(2014-2024)'
   },
   { 
     value: 'other', 

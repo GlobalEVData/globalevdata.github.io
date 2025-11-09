@@ -43,7 +43,7 @@ sidebar: {
               items: [
                 { text: '2024 EVCS Data', link: '/datasets/ev-charger/2024' },
                 { text: '2022 EVCS Data', link: '/datasets/ev-charger/2022' },
-                { text: 'US EVCS Data(2014-2024)', link: '/datasets/ev-charger/US-2014-2024' },
+                { text: 'U.S. EVCS Data(2014-2024)', link: '/datasets/ev-charger/US-2014-2024' },
               ],
             },
             {

@@ -5,8 +5,8 @@ export const regionOptions = [
     label: 'China'
   },
   {
-    value: 'US',
-    label: 'US'
+    value: 'U.S.',
+    label: 'U.S.'
   },
   {
     value: 'Europe',
@@ -75,8 +75,8 @@ export const regionOptions2 = [
     label: 'China'
   },
   {
-    value: 'US',
-    label: 'US'
+    value: 'U.S.',
+    label: 'U.S.'
   },
   {
     value: 'Europe',

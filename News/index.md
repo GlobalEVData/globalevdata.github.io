@@ -1,8 +1,8 @@
 # News
 
-## [Data] [US Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8) 
+## [Data] [U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8) 
 
-We are glad to share the US Public Electric Vehicle Charging Station (EVCS) Data from 2014 to 2024, sourced from US Department of Energy’s Alternative Fuel Data Center (AFDC)...
+We are glad to share the U.S. Public Electric Vehicle Charging Station (EVCS) Data from 2014 to 2024, sourced from U.S. Department of Energy’s Alternative Fuel Data Center (AFDC)...
 
 ## [Talk] [Research Group Presents at Geospatial Lab Feature Talk](./2025-11-5)
 
@@ -25,10 +25,10 @@ The Principal Investigator of the Global EV Data Initiative, Dr. Chengxiang (Ton
 
 ## [Data] [Global Public Electric Vehicle Charging Station Data in 2024](./2025-3-19) 
 
-We are glad to share the Global Public Electric Vehicle Charging Station Data in 2024, which contain public EV charging station locations in the US, China and Europe...
+We are glad to share the Global Public Electric Vehicle Charging Station Data in 2024, which contain public EV charging station locations in the U.S., China and Europe...
 
 ## [Data] [Global Public Electric Vehicle Charging Station Data in 2022](./2024-11-22) 
 
-We are glad to share the Global Public Electric Vehicle Charging Station Data in 2022, which contain public EV charging station locations in the US, China and Europe...
+We are glad to share the Global Public Electric Vehicle Charging Station Data in 2022, which contain public EV charging station locations in the U.S., China and Europe...
 
 
