@@ -20,7 +20,7 @@ Here is a list of datasets which are being shared through the Global EV Data Ini
 | **EV Text Data**   | Advanced Air Mobility (AAM) Bibliometric Text Data (2015 – 2024)             | Bibliometric data from Scopus and Web of Science on AAM research.            | [View Details](/datasets/ev-text/aam-bibliometric) |
 | **EV Text Data**   | Global EV Public Charging Station Review Data (2015-2024) | Reviews data from real-world users of EV public charging stations on the PlugShare and Baidu Maps platforms (2015-2024). | [View Details](/datasets/ev-text/ev-charger-review) |
 | **EV Charger Data**   | U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024) | Location data of EV charging stations across the U.S. from 2014 to 2024. | [View Details](/datasets/ev-charger/US-2014-2024) |
-
+| **EV Charger Data**   | China Public Electric Vehicle Charging Station (EVCS) Data (2015-2025) | Location data of EV charging stations across the Mainland China from 2015 to 2025. | [View Details](/datasets/ev-charger/China-2015-2025) |
 <script setup>
 import { ref } from 'vue';
 </script>

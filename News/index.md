@@ -1,5 +1,9 @@
 # News
 
+## [Data] [China Public Electric Vehicle Charging Station (EVCS) Data (2015-2025)](./2025-11-27) 
+
+We are glad to share the China Public Electric Vehicle Charging Station (EVCS) Data from 2015 to 2025, sourced from Amap...
+
 ## [Data] [U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8) 
 
 We are glad to share the U.S. Public Electric Vehicle Charging Station (EVCS) Data from 2014 to 2024, sourced from U.S. Department of Energy’s Alternative Fuel Data Center (AFDC)...

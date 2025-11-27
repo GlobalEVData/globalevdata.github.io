@@ -5,6 +5,10 @@ export const chargingStationOptions = [
     label: 'U.S. EVCS Data(2014-2024)'
   },
   { 
+    value: 'China', 
+    label: 'China EVCS Data(2015-2025)'
+  },
+  { 
     value: 'other', 
     label: 'Other Regions'
   }
@@ -12,10 +16,6 @@ export const chargingStationOptions = [
 
 // 不包含美国的地区选项
 export const regionOptionsWithoutUSA = [
-  { 
-    value: 'China', 
-    label: 'China'
-  },
   {
     value: 'Europe',
     label: 'Europe',
