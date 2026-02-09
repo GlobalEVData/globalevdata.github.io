@@ -1,5 +1,9 @@
 # News
 
+## [Paper] [A Global Insight into Park-Charge-Ride Published in Sustainable Cities and Society](./2026-2-8) 
+
+We are delighted to announce that our research paper titled “A global insight into integration of metro and electric vehicle charging stations” has been published...
+
 ## [Data] [China Public Electric Vehicle Charging Station (EVCS) Data (2015-2025)](./2025-11-27) 
 
 We are glad to share the China Public Electric Vehicle Charging Station (EVCS) Data from 2015 to 2025, sourced from Amap...
