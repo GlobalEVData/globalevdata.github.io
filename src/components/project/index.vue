@@ -45,9 +45,9 @@ const imageProjects = [
     code: ""
   },
   {
-     title: "Decade-long EV charging accessibility and equity in U.S.",
+     title: "Improved Equity of U.S. Public Electric Vehicle Charger System with Geospatial Disparities",
      image: image2,
-     link: "https://cd010222.github.io/USCharger/",
+     link: "https://globalevdata.github.io/USCharger/",
      paper: "",
      code: ""
    }
