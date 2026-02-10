@@ -73,23 +73,18 @@ const Reachers = [
     title: 'Leading Researcher & PhD student',
   },
   {
-    avatar: '10.png',
-    name: 'Xiaoqi SHI',
-    title: 'Data Analyst & PhD Student',
-  },
-  {
     avatar: '5.png',
     name: 'Enyuan CAO',
     title: 'Data Analyst & PhD Student',
   },
   {
-    avatar: '9.png',
-    name: 'Dingkang TENG',
-    title: 'Data Analyst & Master Student',
-  },
-  {
     avatar: '11.png',
     name: 'Ding CHEN',
+    title: 'Data Analyst & PhhD Student',
+  },
+  {
+    avatar: '9.png',
+    name: 'Dingkang TENG',
     title: 'Data Analyst & Master Student',
   },
   {
