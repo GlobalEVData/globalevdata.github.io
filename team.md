@@ -80,7 +80,7 @@ const Reachers = [
   {
     avatar: '11.png',
     name: 'Ding CHEN',
-    title: 'Data Analyst & PhhD Student',
+    title: 'Data Analyst & PhD Student',
   },
   {
     avatar: '9.png',
@@ -90,7 +90,7 @@ const Reachers = [
   {
     avatar: '12.png',
     name: 'Zhiqing PAN',
-    title: 'Website Developer & Research Assistant',
+    title: 'Website Developer',
   },
 ]
 
