@@ -35,6 +35,8 @@ import { useIntersectionObserver } from '@vueuse/core'
 
 import image1 from './image1.png?url'
 import image2 from './image2.png?url'
+import image3 from './image3.png?url'
+
 
 const imageProjects = [
   {
@@ -48,6 +50,13 @@ const imageProjects = [
      title: "Improved Equity of U.S. Public Electric Vehicle Charger System with Geospatial Disparities",
      image: image2,
      link: "https://globalevdata.github.io/USCharger/",
+     paper: "",
+     code: ""
+   },
+   {
+     title: "Variances in Operational Feasibility, Investment Cost and Environmental Benefit of Bus Electrification across 224 Chinese Cities",
+     image: image3,
+     link: "https://cd010222.github.io/ChinaEBus/",
      paper: "",
      code: ""
    }
