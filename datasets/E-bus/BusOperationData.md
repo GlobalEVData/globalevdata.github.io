@@ -19,7 +19,7 @@ The dataset integrates multiple data sources, including route and stop informati
 
 <FileDownloader 
   :fileUrl='SampleDataURL1'
-  buttonText="Download One-City Sample: vs_parking_nodeid.csv" 
+  buttonText="Download One-City Sample" 
   fileName="vs_parking_nodeid.csv"
 />
 

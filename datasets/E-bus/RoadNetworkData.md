@@ -18,7 +18,7 @@ This dataset contains the road networks within the bus service area in 224 citie
 
 <FileDownloader 
   :fileUrl='SampleDataURL1'
-  buttonText="Download One-City Sample: road_network.zip" 
+  buttonText="Download One-City Sample" 
   fileName="road_network.zip"
 />
 

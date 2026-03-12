@@ -18,7 +18,7 @@ This dataset was collected from Amap and covers urban bus services in 224 cities
 
 <FileDownloader 
   :fileUrl='SampleDataURL1'
-  buttonText="Download One-City Sample: route_stop.zip" 
+  buttonText="Download One-City Sample" 
   fileName="route_stop.zip"
 />
 
