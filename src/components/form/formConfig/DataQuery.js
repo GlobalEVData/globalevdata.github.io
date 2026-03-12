@@ -1,6 +1,6 @@
 // config.js
 import { createChargingStationConfig } from './ChargingStationConfig.js';
-import { chinaEBusTypes } from './data.js';
+import { chinaEBusTypes, chinaEBusCities } from './data.js';
 
 export default {
   formProps: {
@@ -22,6 +22,21 @@ function createChinaEBusConfig(label) {
   return {
     label,
     fields: [
+      {
+        type: "cascader",
+        model: "cities",
+        label: "Cities",
+        optionsRef: "chinaEBusCities",
+        props: {
+          multiple: true,
+          collapseTags: true,
+          collapseTagsTooltip: true,
+          clearable: true
+        },
+        style: { width: "100%" },
+        placeholder: "Please select cities",
+        rules: createRule("Please select at least one city"),
+      },
       {
         type: "checkbox-group",
         model: "Types",

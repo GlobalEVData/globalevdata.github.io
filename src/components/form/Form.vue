@@ -46,7 +46,7 @@ import ReportPreview from './preview/Preview.vue'
 import UserInfoConfig from './formConfig/userInfo.js'
 import DataQueryConfig from './formConfig/DataQuery.js'
 import { extractFormRef } from './formConfig/helper.js' // 提取表单配置为ref
-import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2, chargingStationOptions, regionOptionsWithoutUSA, chinaEBusTypes } from './formConfig/data.js'
+import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2, chargingStationOptions, regionOptionsWithoutUSA, chinaEBusTypes, chinaEBusCities } from './formConfig/data.js'
 
 const userForm = extractFormRef(UserInfoConfig)
 
@@ -65,7 +65,8 @@ const externalData = {
   regionOptions2,
   chargingStationOptions,
   regionOptionsWithoutUSA,
-  chinaEBusTypes
+  chinaEBusTypes,
+  chinaEBusCities
 }
 
 // 计算是否有选中的数据库

@@ -64,7 +64,7 @@
 
 <script setup>
 import { reactive, ref, computed, watch } from 'vue'
-import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2, chinaEBusTypes } from './formConfig/data.js'
+import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2, chinaEBusTypes, chinaEBusCities } from './formConfig/data.js'
 import { chargingStationOptions, regionOptionsWithoutUSA } from './formConfig/ChargingStationConfig.js'
 
 const props = defineProps({
@@ -87,7 +87,8 @@ const props = defineProps({
       regionOptions2,
       chargingStationOptions,
       regionOptionsWithoutUSA,
-      chinaEBusTypes
+      chinaEBusTypes,
+      chinaEBusCities
     })
   }
 })
