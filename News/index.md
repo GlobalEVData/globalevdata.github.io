@@ -1,6 +1,6 @@
 # News
 
-## [Data] [Title: China E-Bus Data (2025): A New Dataset for E-Bus Simulation](./2026-3-12) 
+## [Data] [China E-Bus Data (2025)\:A New Dataset for E-Bus Simulation](./2026-3-12) 
 
 We are pleased to present the China E-Bus Data (2025), a new dataset developed to support research on urban bus operations and electric bus system simulation in China...
 
