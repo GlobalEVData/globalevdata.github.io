@@ -90,3 +90,10 @@ export const availableYears = ['2022', '2024*', '2025*']
 export const availableYearsForAAM = ['Social Media Text Data 2015-2024*', 'Bibliometric Text Data 2015-2024*']
 
 export const availableYearsForEVCReviewData = ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+
+// China E-bus Data 类型选项
+export const chinaEBusTypes = [
+  { value: 'BusRouteStopData', label: 'Bus Route and Stop Data (2025)' },
+  { value: 'BusOperationData', label: 'Bus Operation Data (2025)' },
+  { value: 'RoadNetworkData', label: 'Road Network Data (2025)' }
+]

@@ -57,6 +57,15 @@ sidebar: {
                 { text: 'EV Charger Review', link: '/datasets/ev-text/ev-charger-review'}
               ],
             },
+            {
+              text: 'China E-Bus Data',
+              collapsed: false,
+              items: [
+                { text: 'Bus Route and Stop Data (2025)', link: '/datasets/E-bus/BusRouteandStop' },
+                { text: 'Bus Operation Data (2025)', link: '/datasets/E-bus/BusOperationData' },
+                { text: 'Road Network Data (2025)', link: '/datasets/E-bus/RoadNetworkData'}
+              ],
+            },
           ],
         },
       ],

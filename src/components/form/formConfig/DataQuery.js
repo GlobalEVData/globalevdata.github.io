@@ -1,5 +1,6 @@
 // config.js
 import { createChargingStationConfig } from './ChargingStationConfig.js';
+import { chinaEBusTypes } from './data.js';
 
 export default {
   formProps: {
@@ -11,11 +12,26 @@ export default {
     charging_stations: createChargingStationConfig("Charging Stations"),
     advanced_air_mobility: createSimpleDatabaseConfig("Advanced Air Mobility Text Data"),
     user_reviews: createDatabaseConfig("EV Charging Review Data*", "availableYearsForEVCReviewData", "regionOptions2"),
+    china_ebus: createChinaEBusConfig("China E-bus Data*"),
   },
 
   actions: true
 };
 
+function createChinaEBusConfig(label) {
+  return {
+    label,
+    fields: [
+      {
+        type: "checkbox-group",
+        model: "Types",
+        label: "Types",
+        optionsRef: "chinaEBusTypes",
+        rules: createRule("Please select at least one type"),
+      }
+    ]
+  };
+}
 
 function createSimpleDatabaseConfig(label) {
   return {

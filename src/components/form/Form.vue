@@ -2,7 +2,7 @@
 
     <UserInfoForm :form-config="UserInfoConfig" v-model="userForm" ref="userInfoForm" />
 
-    <DatabaseForm :form-config="DataQueryConfig" v-model="queryForm" ref="databaseForm">
+    <DatabaseForm :form-config="DataQueryConfig" v-model="queryForm" ref="databaseForm" :externalData="externalData">
       <template #actions>
         <el-button type="primary" @click="generatePreview" :disabled="!hasSelectedDatabase">
           Print Prewiew
@@ -46,7 +46,7 @@ import ReportPreview from './preview/Preview.vue'
 import UserInfoConfig from './formConfig/userInfo.js'
 import DataQueryConfig from './formConfig/DataQuery.js'
 import { extractFormRef } from './formConfig/helper.js' // 提取表单配置为ref
-
+import { regionOptions, availableYears, availableYearsForAAM, availableYearsForEVCReviewData, regionOptions2, chargingStationOptions, regionOptionsWithoutUSA, chinaEBusTypes } from './formConfig/data.js'
 
 const userForm = extractFormRef(UserInfoConfig)
 
@@ -56,6 +56,17 @@ const showPreview = ref(false)
 
 const userInfoForm = ref()
 const databaseForm = ref()
+
+const externalData = {
+  regionOptions,
+  availableYears,
+  availableYearsForAAM,
+  availableYearsForEVCReviewData,
+  regionOptions2,
+  chargingStationOptions,
+  regionOptionsWithoutUSA,
+  chinaEBusTypes
+}
 
 // 计算是否有选中的数据库
 const hasSelectedDatabase = computed(() => {

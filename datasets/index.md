@@ -21,6 +21,9 @@ Here is a list of datasets which are being shared through the Global EV Data Ini
 | **EV Text Data**   | Global EV Public Charging Station Review Data (2015-2024) | Reviews data from real-world users of EV public charging stations on the PlugShare and Baidu Maps platforms (2015-2024). | [View Details](/datasets/ev-text/ev-charger-review) |
 | **EV Charger Data**   | U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024) | Location data of EV charging stations across the U.S. from 2014 to 2024. | [View Details](/datasets/ev-charger/US-2014-2024) |
 | **EV Charger Data**   | China Public Electric Vehicle Charging Station (EVCS) Data (2015-2025) | Location data of EV charging stations across the Mainland China from 2015 to 2025. | [View Details](/datasets/ev-charger/China-2015-2025) |
+| **China E-Bus Data**   | Bus Route and Stop Data (2025) | Shapefiles of urban bus routes and stops for each city, including route-level information. | [View Details](/datasets/E-bus/BusRouteandStop) |
+| **China E-Bus Data**   | Bus Operation Data (2025) | CSV files containing daily operational records of bus trips. | [View Details](/datasets/E-bus/BusOperationData) |
+| **China E-Bus Data**   | Road Network Data (2025) | Road network data required to run the simulation-based optimization model. | [View Details](/datasets/E-bus/RoadNetworkData) |
 <script setup>
 import { ref } from 'vue';
 </script>
