@@ -1,5 +1,8 @@
 # News
 
+## [Paper] [Dynamic EV Charging Social Disparities in the U.S. Published in Transportation Research Part D](./2026-3-31) 
+We are delighted to announce that our research paper titled “Dynamic social disparities in the U.S. electric vehicle charging infrastructure system” has been published in Transportation Research Part D...
+
 ## [Paper] [A Global Insight into Park-Charge-Ride Published in Sustainable Cities and Society](./2026-2-8) 
 
 We are delighted to announce that our research paper titled “A global insight into integration of metro and electric vehicle charging stations” has been published...
