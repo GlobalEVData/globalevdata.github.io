@@ -14,3 +14,4 @@ type: publications
 
 4. Dingkang Teng, Justin Hayse Chiwing G. Tang, Ruichen Ma, Xiong Yang, Chengxiang Zhuge, A global insight into integration of metro and electric vehicle charging stations, Sustainable Cities and Society, 2026, 107217, https://doi.org/10.1016/j.scs.2026.107217.
 
+5. Ruichen Ma, Mingming Guan, Dingkang Teng, Xiong Yang, Chengxiang Zhuge*, Dynamic social disparities in the U.S. electric vehicle charging infrastructure system, Transportation Research Part D: Transport and Environment, 2026, 105307, https://doi.org/10.1016/j.trd.2026.105307.

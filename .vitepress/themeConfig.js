@@ -58,12 +58,10 @@ sidebar: {
               ],
             },
             {
-              text: 'China E-Bus Data',
+              text: 'E-Bus Data',
               collapsed: false,
               items: [
-                { text: 'Bus Route and Stop Data (2025)', link: '/datasets/E-bus/BusRouteandStop' },
-                { text: 'Bus Operation Data (2025)', link: '/datasets/E-bus/BusOperationData' },
-                { text: 'Road Network Data (2025)', link: '/datasets/E-bus/RoadNetworkData'}
+                { text: 'China E-Bus Data (2025)', link: '/datasets/E-bus/ChinaEBusData' },
               ],
             },
           ],
