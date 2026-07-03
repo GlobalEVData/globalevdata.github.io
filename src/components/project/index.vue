@@ -54,7 +54,7 @@ const imageProjects = [
      code: ""
    },
    {
-     title: "Variances in Operational Feasibility, Investment Cost and Environmental Benefit of Bus Electrification across 224 Chinese Cities",
+     title: "How do bus network structure shapes system costs and emissions of fleet electrification? Evidence from over 200 Chinese cities",
      image: image3,
      link: "https://cd010222.github.io/ChinaEBus/",
      paper: "",

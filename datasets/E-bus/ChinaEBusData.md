@@ -15,13 +15,12 @@ This dataset was collected from Amap and covers urban bus services in 224 cities
 
 ### 1.2 Bus Operation Data
 
-This preprocessed dataset contains one day of trip records for 224 cities. Provided in CSV format, it is designed for direct use in the simulation-based optimization model. It covers 1,740,641 trips on 71,863 bus routes for Monday, 20 January 2025.
-The dataset integrates multiple data sources, including route and stop information, actual timetables, and operating speeds. It also derives other key inputs required for simulation, such as vehicle schedules and energy consumption estimates that account for traffic conditions.
+This preprocessed dataset contains one day of trip records for 224 cities. It covers 1,740,641 trips on 71,863 bus routes for Monday, 20 January 2025.
+The dataset integrates multiple data sources, including route and stop information, actual timetables, and operating speeds. It also derives other key information, such as vehicleschedules and energy consumption estimates that account for traffic conditions.
 
 ### 1.3 Road Network Data
 
-This dataset contains the road networks within the bus service area in 224 cities. It is provided in shapefile format and organized as an edge-node topology. The data were obtained from OpenStreetMap, from which we retained the major roads accessible to bus operations. To ensure network connectivity, the original OSM road geometries were first buffered and then converted to centerlines. The network was further split at bus stop locations so that stops were also represented as nodes. Node IDs were aligned with the IDs of bus terminals to support e-bus simulation modeling.
-
+This dataset contains the road networks within the bus service area in 224 cities. It is provided in shapefile format and organized as an edge-node topology. The data were obtained from OpenStreetMap, from which we retained the major roads accessible to bus operations. To ensure network connectivity, the original OSM road geometries were first buffered and then converted to centerlines. The network was further split at bus stop locations so that stops were also represented as nodes.
 
 
 ## 2. Sample Data Download
