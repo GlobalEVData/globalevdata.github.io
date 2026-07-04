@@ -16,7 +16,7 @@ This dataset was collected from Amap and covers urban bus services in 224 cities
 ### 1.2 Bus Operation Data
 
 This preprocessed dataset contains one day of trip records for 224 cities. It covers 1,740,641 trips on 71,863 bus routes for Monday, 20 January 2025.
-The dataset integrates multiple data sources, including route and stop information, actual timetables, and operating speeds. It also derives other key information, such as vehicleschedules and energy consumption estimates that account for traffic conditions.
+The dataset integrates multiple data sources, including route and stop information, actual timetables, and operating speeds. It also derives other key information, such as vehicle schedules and energy consumption estimates that account for traffic conditions.
 
 ### 1.3 Road Network Data
 
