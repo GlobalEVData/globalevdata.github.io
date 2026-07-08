@@ -58,10 +58,10 @@ sidebar: {
               ],
             },
             {
-              text: 'E-Bus Data',
+              text: 'Bus Data',
               collapsed: false,
               items: [
-                { text: 'China E-Bus Data (2025)', link: '/datasets/E-bus/ChinaEBusData' },
+                { text: 'Bus Operation Data in 224 Chinese Cities', link: '/datasets/E-bus/ChinaEBusData' },
               ],
             },
           ],

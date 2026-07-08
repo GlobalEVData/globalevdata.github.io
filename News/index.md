@@ -1,8 +1,8 @@
 # News
 
-<!-- ## [Data] [China E-Bus Data (2025)\:A New Dataset for E-Bus Simulation](./2026-3-12) 
+## [Data] [Bus Operation Data in 224 Chinese Cities](./2026-7-8) 
 
-We are pleased to present the China E-Bus Data (2025), a new dataset developed to support research on urban bus operations and electric bus system simulation in China... -->
+We are pleased to share a new bus operation dataset in 2025 covering 224 cities in China. The dataset includes bus routes and stops, one-day bus operational data, and road network...
 
 ## [Paper] [Dynamic EV Charging Social Disparities in the U.S. Published in Transportation Research Part D](./2026-3-31) 
 We are delighted to announce that our research paper titled “Dynamic social disparities in the U.S. electric vehicle charging infrastructure system” has been published in Transportation Research Part D...
