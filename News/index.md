@@ -1,21 +1,26 @@
 # News
 
-## [Data] [Bus Operation Data in 224 Chinese Cities](./2026-7-8) 
+## [Conference] [Conference Oral Presentation at CPGIS 2026](./2026-7-24.md)
+
+A member of our research  group Global EV Data Initiative, Ruichen Ma, presented the latest findings on public electric vehicle (EV) charging accessibility in the United States (U.S.)...
+
+## [Data] [Bus Operation Data in 224 Chinese Cities](./2026-7-8)
 
 We are pleased to share a new bus operation dataset in 2025 covering 224 cities in China. The dataset includes bus routes and stops, one-day bus operational data, and road network...
 
-## [Paper] [Dynamic EV Charging Social Disparities in the U.S. Published in Transportation Research Part D](./2026-3-31) 
+## [Paper] [Dynamic EV Charging Social Disparities in the U.S. Published in Transportation Research Part D](./2026-3-31)
+
 We are delighted to announce that our research paper titled “Dynamic social disparities in the U.S. electric vehicle charging infrastructure system” has been published in Transportation Research Part D...
 
-## [Paper] [A Global Insight into Park-Charge-Ride Published in Sustainable Cities and Society](./2026-2-8) 
+## [Paper] [A Global Insight into Park-Charge-Ride Published in Sustainable Cities and Society](./2026-2-8)
 
 We are delighted to announce that our research paper titled “A global insight into integration of metro and electric vehicle charging stations” has been published...
 
-## [Data] [China Public Electric Vehicle Charging Station (EVCS) Data (2015-2025)](./2025-11-27) 
+## [Data] [China Public Electric Vehicle Charging Station (EVCS) Data (2015-2025)](./2025-11-27)
 
 We are glad to share the China Public Electric Vehicle Charging Station (EVCS) Data from 2015 to 2025, sourced from Amap...
 
-## [Data] [U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8) 
+## [Data] [U.S. Public Electric Vehicle Charging Station (EVCS) Data (2014-2024)](./2025-11-8)
 
 We are glad to share the U.S. Public Electric Vehicle Charging Station (EVCS) Data from 2014 to 2024, sourced from U.S. Department of Energy’s Alternative Fuel Data Center (AFDC)...
 
@@ -27,23 +32,22 @@ Dr. Zhuge was invited by the Hong Kong Government Development Bureau’s Geospat
 
 We are pleased to announce that our research group members, Ruichen MA and Zili TIAN...
 
-## [Data] [Global EV Public Charging Station Review Data (2015-2024)](./2025-8-17) 
+## [Data] [Global EV Public Charging Station Review Data (2015-2024)](./2025-8-17)
 
 We are pleased to present the Global EV Charging Station Review Dataset (2015–2024). Covering the period from 1 January 2015 to 31 December 2024...
 
-## [Data] [Advanced Air Mobility (AAM)-related Social Media and Bibliometric Text Data (2015-2024)](./2025-7-3) 
+## [Data] [Advanced Air Mobility (AAM)-related Social Media and Bibliometric Text Data (2015-2024)](./2025-7-3)
 
 We are excited to share Advanced Air Mobility (AAM)-related text datasets from 2015 to 2024, covering social media and bibliometric text data...
 
 ## [Talk] [Presentations on Global EV Data Initiative at University of Cambridge](./2025-5-21)
+
 The Principal Investigator of the Global EV Data Initiative, Dr. Chengxiang (Tony) Zhuge was invited by Prof Ying Jin and Dr Li Wan to give two talks at the Architecture and Land Economy departments, University of Cambridge on 30 April and 1 May 2025...
 
-## [Data] [Global Public Electric Vehicle Charging Station Data in 2024](./2025-3-19) 
+## [Data] [Global Public Electric Vehicle Charging Station Data in 2024](./2025-3-19)
 
 We are glad to share the Global Public Electric Vehicle Charging Station Data in 2024, which contain public EV charging station locations in the U.S., China and Europe...
 
-## [Data] [Global Public Electric Vehicle Charging Station Data in 2022](./2024-11-22) 
+## [Data] [Global Public Electric Vehicle Charging Station Data in 2022](./2024-11-22)
 
 We are glad to share the Global Public Electric Vehicle Charging Station Data in 2022, which contain public EV charging station locations in the U.S., China and Europe...
-
-
