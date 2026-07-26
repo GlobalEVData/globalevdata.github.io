@@ -40,7 +40,7 @@ import image3 from './image3.png?url'
 
 const imageProjects = [
   {
-    title: "A Comparative Study of Global EV Charging Station Deployment Patterns Published in Cell Reports Sustainability",
+    title: "A Spatial Planning Perspective on the Global Deployment of Public Electric Vehicle Charging Stations",
     image: image1,
     link: "https://globalevdata.github.io/GlobalCharger/",
     paper: "",
