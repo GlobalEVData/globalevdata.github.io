@@ -1,5 +1,9 @@
 # News
 
+## [Paper] [A Comparative Study of Global EV Charging Station Deployment Patterns Published in Cell Reports Sustainability](./2026-7-26)
+
+We are delighted to announce that our research paper titled “A Spatial Planning Perspective on the Global Deployment of Public Electric Vehicle Charging Stations” has been published in Cell Reports Sustainability...
+
 ## [Conference] [Conference Oral Presentation at CPGIS 2026](./2026-7-24.md)
 
 A member of our research  group Global EV Data Initiative, Ruichen Ma, presented the latest findings on public electric vehicle (EV) charging accessibility in the United States (U.S.)...
