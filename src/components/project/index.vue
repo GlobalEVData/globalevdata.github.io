@@ -54,7 +54,7 @@ const imageProjects = [
      code: ""
    },
    {
-     title: "How does bus network structure shape system costs and emissions of fleet electrification? Evidence from 224 Chinese cities",
+     title: "Network structure shapes system costs and emissions of bus electrification",
      image: image3,
      link: "https://globalevdata.github.io/ChinaEBus/",
      paper: "",
