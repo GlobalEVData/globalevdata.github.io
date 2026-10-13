@@ -48,7 +48,7 @@ const ExternalCollaborators = [
     title: 'PhD student at Vrije Universiteit Brussel, Belgium',
   },
   {
-    avatar: '9.png',
+    avatar: 'TengDingKang.png',
     name: 'Dingkang TENG',
     title: 'PhD student at University of Tennessee, Knoxville, USA',
   },
