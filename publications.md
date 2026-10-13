@@ -7,7 +7,7 @@ type: publications
 
 1. Xiong Yang, Zhenhan Peng, Chengxiang Zhuge*, Justin Hayse Chiwing G. Tang, Ruichen Ma, Binru Wei, and Wenzhong Shi*. A spatial planning perspective on the global deployment of public electric vehicle charging stations. Cell Reports Sustainability, 2026, 100786, https://doi.org/10.1016/j.crsus.2026.100786.
 2. Justin Hayse Chiwing G. Tang, Yuan Li, Enyuan Cao, Xiong Yang, Ding Chen, Ruichen Ma, Zhenhan Peng, Binru Wei, Chengxiang Zhuge,
-Stakeholder attention to advanced air mobility reveals worldwide disparities,Transport Policy,2026,104488, https://doi.org/10.1016/j.tranpol.2026.104488.
+Stakeholder attention to advanced air mobility reveals worldwide disparities, Transport Policy, 2026, 104488, https://doi.org/10.1016/j.tranpol.2026.104488.
 3. Ding Chen, Justin Hayse Chiwing G. Tang, Xiong Yang, Ruichen Ma, Enyuan Cao, Zhenhan Peng, Yuan Li, Binru Wei, Chengxiang Zhuge$^{*}$. Mapping globally public charging service satisfaction trajectories of electric vehicle users. Under Review.
 4. Dingkang Teng, Justin Hayse Chiwing G. Tang, Ruichen Ma, Xiong Yang, Chengxiang Zhuge, A global insight into integration of metro and electric vehicle charging stations, Sustainable Cities and Society, 2026, 107217, https://doi.org/10.1016/j.scs.2026.107217.
 5. Ruichen Ma, Mingming Guan, Dingkang Teng, Xiong Yang, Chengxiang Zhuge*, Dynamic social disparities in the U.S. electric vehicle charging infrastructure system, Transportation Research Part D: Transport and Environment, 2026, 105307, https://doi.org/10.1016/j.trd.2026.105307.
