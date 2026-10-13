@@ -1,5 +1,9 @@
 # News
 
+## [Paper] [Stakeholder attention to advanced air mobility reveals worldwide disparities](./2026-10-13)
+
+We are delighted to announce that our research paper titled “Stakeholder attention to advanced air mobility reveals worldwide disparities” has been published in Transport Policy...
+
 ## [Paper] [A Comparative Study of Global EV Charging Station Deployment Patterns Published in Cell Reports Sustainability](./2026-7-26)
 
 We are delighted to announce that our research paper titled “A Spatial Planning Perspective on the Global Deployment of Public Electric Vehicle Charging Stations” has been published in Cell Reports Sustainability...

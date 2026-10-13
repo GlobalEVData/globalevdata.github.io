@@ -23,6 +23,21 @@ const ExternalCollaborators = [
     title: 'Assistant Professor at Zhejiang University',
   },
   {
+    avatar: 'Xingjun HUANG.png',
+    name: 'Xingjun HUANG',
+    title: 'Lecturer at School of Modern Posts, Chongqing University of Posts and Telecommunications, China',
+  },
+  {
+    avatar: '8.png',
+    name: 'Fan ZHANG',
+    title: 'Postdoc Fellow at HK PolyU',
+  },
+  {
+    avatar: '4.png',
+    name: 'Justin Hayse Chiwing G. TANG',
+    title: 'PhD student at TU Dortmund University, Germany',
+  },
+  {
     avatar: '7.png',
     name: 'Zhenhan PENG',
     title: 'PhD Student at KU Leuven, Belgium',
@@ -33,14 +48,9 @@ const ExternalCollaborators = [
     title: 'PhD student at Vrije Universiteit Brussel, Belgium',
   },
   {
-    avatar: 'Xingjun HUANG.png',
-    name: 'Xingjun HUANG',
-    title: 'Lecturer at School of Modern Posts, Chongqing University of Posts and Telecommunications, China',
-  },
-  {
-    avatar: '8.png',
-    name: 'Fan ZHANG',
-    title: 'Postdoc Fellow at HK PolyU',
+    avatar: '9.png',
+    name: 'Dingkang TENG',
+    title: 'PhD student at University of Tennessee, Knoxville, USA',
   },
 ]
 
@@ -57,11 +67,7 @@ const Reachers = [
     name: 'Xiong YANG',
     title: 'Leading Researcher & Postdoc Fellow',
   },
-  {
-    avatar: '4.png',
-    name: 'Justin Hayse Chiwing G. TANG',
-    title: 'Leading Researcher & PhD Student',
-  },
+  
   {
     avatar: 'Shiqi WANG.png',
     name: 'Shiqi WANG',
@@ -83,9 +89,9 @@ const Reachers = [
     title: 'Data Analyst & PhD Student',
   },
   {
-    avatar: '9.png',
-    name: 'Dingkang TENG',
-    title: 'Data Analyst & Master Student',
+    avatar: 'QiChongKai.png',
+    name: 'ChongKai Qi',
+    title: 'Data Analyst & PhD Student',
   },
   {
     avatar: '12.png',
