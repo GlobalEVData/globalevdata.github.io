@@ -1,5 +1,9 @@
 # News
 
+## [Talk] [Presentation on Global EV Report at the ASEAN-China New Energy Vehicle Cooperation Capacity Building Workshop](./2026-11-1)
+
+Dr. Chengxiang (Tony) Zhuge was invited by the Global Sustainable Transport Innovation and Knowledge Center (GSTIKC) to speak at the ASEAN-China New Energy Vehicle Cooperation Capacity Building Workshop in Changzhou on 23 October 2026....
+
 ## [Paper] [Stakeholder attention to advanced air mobility reveals worldwide disparities](./2026-10-13)
 
 We are delighted to announce that our research paper titled “Stakeholder attention to advanced air mobility reveals worldwide disparities” has been published in Transport Policy...
